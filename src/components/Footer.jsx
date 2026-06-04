@@ -31,7 +31,7 @@ export default function Footer() {
         </ul>
 
         <p className="footer__copy">
-          &copy; {new Date().getFullYear()} Al Awaans · Abu Dhabi, UAE
+          &copy; {new Date().getFullYear()} Al Awaans · Shabiya 11, Musaffah, Abu Dhabi
         </p>
       </div>
     </footer>
