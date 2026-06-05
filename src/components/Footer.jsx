@@ -1,4 +1,4 @@
-const SHOP = 'https://hsf237.github.io/al-awaans.com/'
+const SHOP = 'https://store.leens.online'
 
 const LINKS = [
   { name: 'About',        href: '#about' },
