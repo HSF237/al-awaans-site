@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion'
 
-const SHOP = 'https://hsf237.github.io/al-awaans.com/'
+const SHOP = 'https://store.leens.online'
 
 const BRANDS = [
   'Samsung', 'Apple', 'Xiaomi', 'G-Shock Casio', 'Realme',

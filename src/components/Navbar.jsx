@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 
-const SHOP = 'https://hsf237.github.io/al-awaans.com/'
+const SHOP = 'https://store.leens.online'
 
 const NAV = [
   { name: 'About',    href: '#about' },

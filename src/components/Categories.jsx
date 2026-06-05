@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import Reveal from './Reveal'
 
-const SHOP = 'https://hsf237.github.io/al-awaans.com/'
+const SHOP = 'https://store.leens.online'
 
 const CATS = [
   {
