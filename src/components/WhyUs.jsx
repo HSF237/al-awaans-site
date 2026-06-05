@@ -40,7 +40,7 @@ export default function WhyUs() {
       <div className="container">
 
         <Reveal>
-          <span className="label">Why Al Awaans</span>
+          <span className="label">Why Leens Computers and Mobiles</span>
           <h2 className="h2" style={{ maxWidth: 480 }}>
             The smarter choice<br />for mobile tech.
           </h2>

@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <a href="#" className="footer__logo">
-          <span>Al </span>Awaans
+          <span>Leens</span>
         </a>
 
         <ul className="footer__links">
@@ -31,7 +31,7 @@ export default function Footer() {
         </ul>
 
         <p className="footer__copy">
-          &copy; {new Date().getFullYear()} Al Awaans · Shabiya 11, Musaffah, Abu Dhabi
+          &copy; {new Date().getFullYear()} Leens Computers and Mobiles · Shabiya 11, Musaffah, Abu Dhabi
         </p>
       </div>
     </footer>

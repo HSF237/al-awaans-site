@@ -35,7 +35,7 @@ export default function About() {
 
             <Reveal delay={0.1}>
               <p style={{ marginTop: 20, color: 'var(--text-2)', fontSize: '0.93rem', lineHeight: 1.82 }}>
-                Al Awaans is Abu Dhabi's trusted destination for premium mobile technology.
+                Leens Computers and Mobiles is Abu Dhabi's trusted destination for premium mobile technology.
                 We curate top-tier smartphones, accessories, smartwatches and tablets —
                 all at prices that make sense.
               </p>

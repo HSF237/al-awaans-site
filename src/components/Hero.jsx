@@ -45,7 +45,7 @@ export default function Hero({ ready }) {
         >
           {/* Eyebrow pill */}
           <motion.div variants={fadeUp} style={{ display: 'flex', justifyContent: 'center' }}>
-            <span className="hero-pill">Al Awaans &nbsp;&middot;&nbsp; Abu Dhabi, UAE</span>
+            <span className="hero-pill">Leens Computers and Mobiles &nbsp;&middot;&nbsp; Abu Dhabi, UAE</span>
           </motion.div>
 
           {/* Word-by-word headline */}

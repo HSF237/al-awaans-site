@@ -25,7 +25,7 @@ export default function Navbar() {
     <header className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#" className="navbar__logo">
-          <span>Al </span>Awaans
+          <span>Leens</span>
         </a>
 
         <nav>

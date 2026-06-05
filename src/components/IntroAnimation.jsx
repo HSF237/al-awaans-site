@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
-const LETTERS = 'AL AWAANS'.split('')
+const LETTERS = 'LEENS'.split('')
 const ease = [0.76, 0, 0.24, 1]
 
 export default function IntroAnimation({ onDone }) {
