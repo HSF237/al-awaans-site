@@ -21,6 +21,15 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', fn)
   }, [])
 
+  function handleNavClick(e, href) {
+    e.preventDefault()
+    setOpen(false)
+    setTimeout(() => {
+      const el = document.querySelector(href)
+      if (el) el.scrollIntoView({ behavior: 'smooth' })
+    }, 80)
+  }
+
   return (
     <header className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar__inner">
@@ -67,7 +76,7 @@ export default function Navbar() {
             transition={{ duration: 0.22, ease: 'easeInOut' }}
           >
             {NAV.map(l => (
-              <a key={l.name} href={l.href} onClick={() => setOpen(false)}>
+              <a key={l.name} href={l.href} onClick={e => handleNavClick(e, l.href)}>
                 {l.name}
               </a>
             ))}
