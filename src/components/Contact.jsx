@@ -23,8 +23,8 @@ const INFO = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'Leensshabiya@gmail.com',
-    href: 'mailto:Leensshabiya@gmail.com',
+    value: 'info@leensuae.com',
+    href: 'mailto:info@leensuae.com',
   },
   {
     icon: MapPin,
@@ -40,7 +40,7 @@ function handleSubmit(e) {
   const email = e.target.querySelector('input[name=email]').value
   const msg   = e.target.querySelector('textarea[name=message]').value
   window.location.href =
-    `mailto:Leensshabiya@gmail.com` +
+    `mailto:info@leensuae.com` +
     `?subject=${encodeURIComponent('Inquiry from ' + name)}` +
     `&body=${encodeURIComponent(msg + '\n\nFrom: ' + name + '\nReply to: ' + email)}`
 }
