@@ -49,41 +49,41 @@ export default function Contact() {
   return (
     <section id="contact" className="section">
       <div className="container">
+
+        {/* ── HEADING (full width, above grid) ── */}
+        <Reveal>
+          <span className="label">Get In Touch</span>
+          <h2 className="h2" style={{ marginTop: 8 }}>We'd love to hear from you.</h2>
+          <p className="lead" style={{ maxWidth: 500, marginTop: 14, marginBottom: 40 }}>
+            Have a question or looking for a specific product?
+            Reach out — our team gets back to you fast.
+          </p>
+        </Reveal>
+
         <div className="contact__inner">
 
-          {/* ── INFO ── */}
-          <div>
-            <Reveal>
-              <span className="label">Get In Touch</span>
-              <h2 className="h2">We'd love to<br />hear from you.</h2>
-              <p className="lead" style={{ maxWidth: 380, marginTop: 14 }}>
-                Have a question or looking for a specific product?
-                Reach out — our team gets back to you fast.
-              </p>
-            </Reveal>
-
-            <Reveal delay={0.1}>
-              <div className="contact__info-items">
-                {INFO.map(item => (
-                  <div key={item.label} className="ci">
-                    <div className="ci__icon">
-                      <item.icon size={18} />
-                    </div>
-                    <div>
-                      <span className="ci__label">{item.label}</span>
-                      {item.href ? (
-                        <a href={item.href} className="ci__val" target={item.href.startsWith('http') ? '_blank' : undefined} rel="noreferrer">
-                          {item.value}
-                        </a>
-                      ) : (
-                        <span className="ci__val">{item.value}</span>
-                      )}
-                    </div>
+          {/* ── INFO CARDS ── */}
+          <Reveal delay={0.1}>
+            <div className="contact__info-items" style={{ marginTop: 0 }}>
+              {INFO.map(item => (
+                <div key={item.label} className="ci">
+                  <div className="ci__icon">
+                    <item.icon size={18} />
                   </div>
-                ))}
-              </div>
-            </Reveal>
-          </div>
+                  <div>
+                    <span className="ci__label">{item.label}</span>
+                    {item.href ? (
+                      <a href={item.href} className="ci__val" target={item.href.startsWith('http') ? '_blank' : undefined} rel="noreferrer">
+                        {item.value}
+                      </a>
+                    ) : (
+                      <span className="ci__val">{item.value}</span>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Reveal>
 
           {/* ── FORM ── */}
           <Reveal delay={0.1}>
