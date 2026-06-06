@@ -115,6 +115,23 @@ export default function Contact() {
           </Reveal>
 
         </div>
+
+        {/* ── MAP ── */}
+        <Reveal delay={0.15}>
+          <div style={{ marginTop: 48, borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.07)', height: 320 }}>
+            <iframe
+              title="Leens Computers and Mobiles Location"
+              src="https://www.google.com/maps?q=Leens+Mobile+Musaffah+Abu+Dhabi&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0, display: 'block' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </Reveal>
+
       </div>
     </section>
   )
