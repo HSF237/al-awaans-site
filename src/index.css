@@ -10,10 +10,10 @@
   --surface:     #101010;
   --surface-2:   #161616;
   --surface-3:   #202020;
-  --gold:        #C49A38;
-  --gold-light:  #D4AA48;
-  --gold-dim:    rgba(196, 154, 56, 0.1);
-  --gold-border: rgba(196, 154, 56, 0.22);
+  --gold:        #E53535;
+  --gold-light:  #FF4444;
+  --gold-dim:    rgba(229, 53, 53, 0.1);
+  --gold-border: rgba(229, 53, 53, 0.22);
   --text:        #F0F0F0;
   --text-2:      #888888;
   --text-3:      #484848;
@@ -68,7 +68,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .btn-gold:hover {
   background: var(--gold-light);
   transform: translateY(-1px);
-  box-shadow: 0 8px 28px rgba(196,154,56,0.28);
+  box-shadow: 0 8px 28px rgba(229,53,53,0.28);
 }
 
 .btn-ghost {
@@ -229,20 +229,20 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .blob-1 {
   width: 80vmax; height: 80vmax;
   top: -35%; left: -25%;
-  background: radial-gradient(circle, rgba(196,154,56,0.17) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(229,53,53,0.17) 0%, transparent 65%);
   animation: blobDrift1 16s ease-in-out infinite alternate;
 }
 .blob-2 {
   width: 65vmax; height: 65vmax;
   bottom: -25%; right: -20%;
-  background: radial-gradient(circle, rgba(196,154,56,0.11) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(229,53,53,0.11) 0%, transparent 65%);
   animation: blobDrift2 20s ease-in-out infinite alternate;
 }
 .blob-3 {
   width: 45vmax; height: 45vmax;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  background: radial-gradient(circle, rgba(196,154,56,0.07) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(229,53,53,0.07) 0%, transparent 65%);
   animation: blobPulse 12s ease-in-out infinite;
 }
 
@@ -263,7 +263,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .dots {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle, rgba(196,154,56,0.2) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgba(229,53,53,0.2) 1px, transparent 1px);
   background-size: 44px 44px;
   mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 30%, transparent 80%);
   -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 30%, transparent 80%);
@@ -318,7 +318,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--gold);
-  border: 1px solid rgba(196,154,56,0.3);
+  border: 1px solid rgba(229,53,53,0.3);
   padding: 7px 18px;
   border-radius: 100px;
   margin-bottom: 28px;
@@ -653,7 +653,7 @@ a.ci__val:hover { color: var(--gold); }
   resize: none;
 }
 .cf input:focus, .cf textarea:focus {
-  border-color: rgba(196,154,56,0.45);
+  border-color: rgba(229,53,53,0.45);
 }
 .cf input::placeholder, .cf textarea::placeholder { color: var(--text-3); }
 .cf textarea { min-height: 130px; }
