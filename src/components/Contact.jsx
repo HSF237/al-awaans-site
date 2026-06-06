@@ -30,7 +30,7 @@ const INFO = [
     icon: MapPin,
     label: 'Location',
     value: 'Shabiya 11, Musaffah, Abu Dhabi',
-    href: 'https://maps.google.com/?q=Shabiya+11+Musaffah+Abu+Dhabi',
+    href: 'https://maps.google.com/?q=Leens+Mobile+Abu+Dhabi',
   },
 ]
 
