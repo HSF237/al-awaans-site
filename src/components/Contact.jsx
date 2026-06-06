@@ -9,6 +9,12 @@ const INFO = [
     href: 'tel:+971569613435',
   },
   {
+    icon: Phone,
+    label: 'Landline',
+    value: '(02) 559 1501',
+    href: 'tel:+97125591501',
+  },
+  {
     icon: MessageCircle,
     label: 'WhatsApp',
     value: '+971 58 989 2367',
