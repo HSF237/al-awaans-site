@@ -19,7 +19,7 @@ export default function Footer() {
             <a href="#" className="footer__logo">
               <span>Al Awaans</span>
             </a>
-            <p>Premium mobile accessories, smartphones, smartwatches and tablets in Abu Dhabi.</p>
+            <p>Premium mobile accessories, smartphones, smartwatches and tablets in the UAE.</p>
           </div>
 
           <ul className="footer__links">
@@ -40,14 +40,14 @@ export default function Footer() {
             <li><Phone size={14} /><a href="tel:+971569613435">+971 56 961 3435</a></li>
             <li><MessageCircle size={14} /><a href="https://wa.me/971589892367" target="_blank" rel="noreferrer">WhatsApp</a></li>
             <li><Mail size={14} /><a href="mailto:info@leens.online">info@leens.online</a></li>
-            <li><MapPin size={14} /><span>Shabiya 11, Musaffah, Abu Dhabi</span></li>
+            <li><MapPin size={14} /><span>UAE</span></li>
           </ul>
         </div>
 
         <div className="footer__word" aria-hidden="true">AL AWAANS</div>
 
         <p className="footer__copy">
-          &copy; {new Date().getFullYear()} Al Awaans Online Shop · Shabiya 11, Musaffah, Abu Dhabi
+          &copy; {new Date().getFullYear()} Al Awaans Online Shop · UAE
         </p>
       </div>
     </footer>

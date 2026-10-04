@@ -10,7 +10,7 @@ const FEATURES = [
   {
     icon: Tag,
     title: 'Competitive Prices',
-    desc: 'The most competitive prices in Abu Dhabi. Get the best technology without overpaying — always.',
+    desc: 'The most competitive prices in the UAE. Get the best technology without overpaying — always.',
   },
   {
     icon: Users,
@@ -25,7 +25,7 @@ const FEATURES = [
   {
     icon: MapPin,
     title: 'UAE Based',
-    desc: 'Proudly serving Abu Dhabi and the UAE. Walk in or browse our online store — we are always here for you.',
+    desc: 'Proudly serving the UAE. Walk in or browse our online store — we are always here for you.',
   },
   {
     icon: Headphones,

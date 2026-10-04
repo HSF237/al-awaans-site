@@ -57,7 +57,7 @@ export default function About() {
                   <path id="circ" d="M150,150 m-134,0 a134,134 0 1,1 268,0 a134,134 0 1,1 -268,0" />
                 </defs>
                 <text fontFamily="Inter, sans-serif" fontSize="11" fontWeight="700" fill="url(#gGold)">
-                  <textPath href="#circ" textLength="830" lengthAdjust="spacing">ABU DHABI  ✦  UAE  ✦  PREMIUM MOBILE TECH  ✦  ABU DHABI  ✦  UAE  ✦  </textPath>
+                  <textPath href="#circ" textLength="830" lengthAdjust="spacing">UAE  ✦  PREMIUM MOBILE TECH  ✦  UAE  ✦  </textPath>
                 </text>
               </svg>
               <Phone className="ab ab-phone" />
@@ -76,7 +76,7 @@ export default function About() {
 
             <Reveal delay={0.1}>
               <p className="about__p">
-                Al Awaans Online Shop is Abu Dhabi's trusted destination for premium mobile technology.
+                Al Awaans Online Shop is the UAE's trusted destination for premium mobile technology.
                 We curate top-tier smartphones, accessories, smartwatches and tablets —
                 all at prices that make sense.
               </p>

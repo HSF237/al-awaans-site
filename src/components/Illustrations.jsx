@@ -57,7 +57,7 @@ export function Phone({ className = '', style }) {
       <circle cx="116" cy="32" r="3" fill="#2a2a35" />
       {/* clock */}
       <text x="100" y="98" textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight="300" fontSize="40" fill="#F6E3A1">9:41</text>
-      <text x="100" y="118" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="9" letterSpacing="3" fill="#B79445">ABU DHABI</text>
+      <text x="100" y="118" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="9" letterSpacing="3" fill="#B79445">UAE</text>
       {/* widgets */}
       <rect x="30" y="140" width="68" height="46" rx="12" fill="#ffffff" fillOpacity="0.07" stroke="#D2A441" strokeOpacity="0.25" />
       <rect x="102" y="140" width="68" height="46" rx="12" fill="#ffffff" fillOpacity="0.07" stroke="#D2A441" strokeOpacity="0.25" />

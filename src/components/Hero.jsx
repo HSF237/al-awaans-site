@@ -74,7 +74,7 @@ export default function Hero({ ready }) {
           <motion.div variants={fadeUp}>
             <span className="hero-pill">
               <span className="pill-dot" />
-              Al Awaans Online Shop &nbsp;&middot;&nbsp; Abu Dhabi, UAE
+              Al Awaans Online Shop &nbsp;&middot;&nbsp; UAE
             </span>
           </motion.div>
 
@@ -93,7 +93,7 @@ export default function Hero({ ready }) {
 
           <motion.p className="hero-sub" variants={fadeUp}>
             Premium mobile accessories, smartphones, smartwatches
-            and tablets — Abu Dhabi's trusted tech destination.
+            and tablets — the UAE's trusted tech destination.
           </motion.p>
 
           <motion.div className="hero-ctas" variants={fadeUp}>

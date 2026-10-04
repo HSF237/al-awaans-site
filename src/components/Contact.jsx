@@ -29,8 +29,8 @@ const INFO = [
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Shabiya 11, Musaffah, Abu Dhabi',
-    href: 'https://maps.google.com/?q=Leens+Mobile+Abu+Dhabi',
+    value: 'UAE',
+    href: 'https://maps.google.com/?q=UAE',
   },
 ]
 
@@ -121,7 +121,7 @@ export default function Contact() {
           <div className="map-wrap">
             <iframe
               title="Al Awaans Online Shop Location"
-              src="https://www.google.com/maps?q=Leens+Mobile+Musaffah+Abu+Dhabi&output=embed"
+              src="https://www.google.com/maps?q=UAE&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, display: 'block' }}
