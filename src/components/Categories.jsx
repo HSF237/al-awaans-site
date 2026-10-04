@@ -6,6 +6,7 @@ const SHOP = 'https://store.leens.online'
 
 const CATS = [
   {
+    mod: 'phones',
     no: '01',
     name: 'Smartphones',
     desc: 'iPhone, Samsung Galaxy, Xiaomi, Realme, Vivo & ASUS ROG',
@@ -29,6 +30,7 @@ const CATS = [
     art: <Tablet className="ca ca-main ca-wide" />,
   },
   {
+    mod: 'acc',
     no: '04',
     name: 'Accessories',
     desc: 'Cases, chargers, earbuds, power banks & G-Shock watches',
@@ -62,7 +64,7 @@ export default function Categories() {
         <div className="cat-grid">
           {CATS.map((c, i) => (
             <Reveal key={c.name} delay={i * 0.08}>
-              <a href={SHOP} target="_blank" rel="noreferrer" className="cat-card">
+              <a href={SHOP} target="_blank" rel="noreferrer" className={`cat-card${c.mod ? ` cat-card--${c.mod}` : ''}`}>
                 <span className="cat-card__no">{c.no}</span>
                 <div className="cat-card__stage" aria-hidden="true">
                   <div className="cat-card__glow" />

@@ -54,10 +54,10 @@ export default function About() {
               <div className="about__art-glow" />
               <svg className="about__ring" viewBox="0 0 300 300">
                 <defs>
-                  <path id="circ" d="M150,150 m-120,0 a120,120 0 1,1 240,0 a120,120 0 1,1 -240,0" />
+                  <path id="circ" d="M150,150 m-134,0 a134,134 0 1,1 268,0 a134,134 0 1,1 -268,0" />
                 </defs>
-                <text fontFamily="Inter, sans-serif" fontSize="14" fontWeight="700" letterSpacing="7" fill="url(#gGold)">
-                  <textPath href="#circ">ABU DHABI · UAE · PREMIUM MOBILE TECH · </textPath>
+                <text fontFamily="Inter, sans-serif" fontSize="11" fontWeight="700" fill="url(#gGold)">
+                  <textPath href="#circ" textLength="830" lengthAdjust="spacing">ABU DHABI  ✦  UAE  ✦  PREMIUM MOBILE TECH  ✦  ABU DHABI  ✦  UAE  ✦  </textPath>
                 </text>
               </svg>
               <Phone className="ab ab-phone" />
