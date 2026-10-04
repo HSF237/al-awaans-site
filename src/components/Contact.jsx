@@ -53,7 +53,7 @@ export default function Contact() {
         {/* ── HEADING (full width, above grid) ── */}
         <Reveal>
           <span className="label">Get In Touch</span>
-          <h2 className="h2" style={{ marginTop: 8 }}>We'd love to hear from you.</h2>
+          <h2 className="h2" style={{ marginTop: 8 }}>We'd love to <em>hear from you.</em></h2>
           <p className="lead" style={{ maxWidth: 500, marginTop: 14, marginBottom: 40 }}>
             Have a question or looking for a specific product?
             Reach out — our team gets back to you fast.
@@ -118,7 +118,7 @@ export default function Contact() {
 
         {/* ── MAP ── */}
         <Reveal delay={0.15}>
-          <div style={{ marginTop: 48, borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.07)', height: 320 }}>
+          <div className="map-wrap">
             <iframe
               title="Al Awaans Online Shop Location"
               src="https://www.google.com/maps?q=Leens+Mobile+Musaffah+Abu+Dhabi&output=embed"
