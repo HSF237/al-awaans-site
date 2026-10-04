@@ -34,7 +34,7 @@ export default function Navbar() {
     <header className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#" className="navbar__logo">
-          <span>Leens</span>
+          <span>Al Awaans</span>
         </a>
 
         <nav>
