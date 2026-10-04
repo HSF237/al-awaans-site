@@ -36,13 +36,13 @@ const FEATURES = [
 
 export default function WhyUs() {
   return (
-    <section id="why" className="section section-alt">
+    <section id="why" className="section section-alt why-section">
       <div className="container">
 
         <Reveal>
           <span className="label">Why Al Awaans Online Shop</span>
-          <h2 className="h2" style={{ maxWidth: 480 }}>
-            The smarter choice<br />for mobile tech.
+          <h2 className="h2" style={{ maxWidth: 520 }}>
+            The smarter choice<br />for <em>mobile tech.</em>
           </h2>
         </Reveal>
 
@@ -50,8 +50,9 @@ export default function WhyUs() {
           {FEATURES.map((f, i) => (
             <Reveal key={f.title} delay={(i % 3) * 0.08}>
               <div className="why-card">
+                <span className="why-no">{String(i + 1).padStart(2, '0')}</span>
                 <div className="why-icon">
-                  <f.icon size={20} />
+                  <f.icon size={22} />
                 </div>
                 <h3>{f.title}</h3>
                 <p>{f.desc}</p>

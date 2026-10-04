@@ -34,6 +34,11 @@ export default function Navbar() {
     <header className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#" className="navbar__logo">
+          <svg className="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <rect x="1" y="1" width="30" height="30" rx="9" fill="url(#gGold)" />
+            <path d="M16 6 L25 26 H20.6 L16 14.6 L11.4 26 H7 Z" fill="#14100a" />
+            <rect x="11.6" y="19.4" width="8.8" height="2.6" rx="1.3" fill="url(#gGold)" />
+          </svg>
           <span>Al Awaans</span>
         </a>
 
